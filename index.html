@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                max-height: 29.7cm;
+                line-height: 1.5;
+                margin: 0;
+            }
+
+            .main-viewport {
+                margin: 0 auto;
+                width: 850px;
+                display: flex;
+                flex-direction: row;
+            }
+
+            #left-bar {
+                width: 45%;
+                padding-left: 3%;
+                padding-right: 3%;
+                background-color: #1d1e18;
+                border-radius: 15px 0 0 15px;
+                color: #DAE8F2;
+            }
+
+            #right-bar {
+                padding-left: 2%;
+                padding-right: 1%;
+                border-right: 2px solid #eee;
+                background-color: #FFF5E2;
+                /*background-color: #EFF1c5;*/
+            }
+
+            .circular-img {
+                width: 150px;
+                margin-top: 2;
+                margin: 2em auto;
+                display: block;
+                border-radius: 50%;
+                border: 3px solid #3E6990;
+            }
+
+            #main-heading {
+                margin-top: 0;
+                padding-top: 0.2em;
+            }
+
+            .undecorated-list {
+                list-style: none;
+                padding: 0px;
+            }
+
+            .section-heading {
+                margin-top: 1em;
+                padding-top: 0.3em;
+                padding-bottom: 0.5em;
+                color: #3E6990;
+                border-bottom: 1px solid #3E6990;
+            }
+
+            .left-bar-header {
+                color: #3E6990;
+            }
+
+            #name {
+                letter-spacing: 4px;
+                text-align: center;
+            }
+
+            #name-box {
+                text-align: center;
+            }
+
+            #name-box h4, h5 {
+                margin: 0;
+            }
+
+            .row {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: 100%;
+                margin-bottom: 15px;
+            }
+
+            .column {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 100%;
+                flex: 1;
+            }
+
+            .project-link {
+                text-decoration: none;
+                color: #3E6990;
+                font-weight: bold;
+            }
+            
+            .project-link:visited {
+                color: #3E6990;
+                font-weight: bold;
+            }
+
+        </style>
+        <link rel="stylesheet" type="text/css" href="pandoc.css" />
+    </head>
+    <body>
+        <div class="main-viewport">
+            <div id="left-bar">
+                <img src="img2.png" class="circular-img"/>
+                <div id="name-box">
+                    <h3 id="name" class="left-bar-header">Rico Lang</h3>
+                    <h4>Auszubildender</h4>
+                    <h5>Fachinformatiker für Anwendungsentwicklung</h5>
+                </div>
+
+                <h4 class="left-bar-header">Kontaktdaten</h3>
+                <ul class="undecorated-list">
+                    <li class="icon home-icon">71706 Markgröningen</li>
+                    <li class="icon email-icon">rico.lang15@gmail.com</li>
+                    <li class="icon contact-icon">0176 47279491</li>
+                    <li class="icon birthday-icon">10.09.1997</li>
+                </ul>
+
+
+                <h4 class="left-bar-header">Skills</h3>
+
+                <ul class="undecorated-list">
+                    <li>
+                        Python
+                        <div>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                        </div>
+                    </li>
+                    <li>
+                        Linux
+                        <div>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                        </div>
+                    </li>
+                    <li>
+                        Git
+                        <div>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                        </div>
+                    </li>
+                    <li>
+                        Java
+                        <div>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                        </div>
+                    </li>
+                    <li>
+                        Node.js
+                        <div>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                        </div>
+                    </li>
+                    <li>
+                        Scrum
+                        <div>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                        </div>
+                    </li>
+                    <li>
+                        Docker
+                        <div>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                        </div>
+                    </li>
+                    <li>
+                        Continuous Integration
+                        <div>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                        </div>
+                    </li>
+                    <li>
+                        Relationale Datenbanken
+                        <div>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▰</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                            <span>▱</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="right-bar">
+                <h2 id="main-heading">
+                    Beruflicher Werdegang
+                    <hr>
+                </h2>
+                <div class="row">
+                    <div class="column">
+                        September 2017 - Februar 2020
+                    </div>
+                    <div class="column">
+                        Ausbildung zum Fachinformatiker für Anwendungsentwicklung bei Mackevision Medien Design GmbH 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        Juni 2017 - September 2017
+                    </div>
+                    <div class="column">
+                        Praktikum Mackevision Medien Design GmbH als Backend-Entwickler für Echtzeitgrafik-Anwendungen
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        Oktober 2016 - März 2017
+                    </div>
+                    <div class="column">
+                        Informatik Studium am Karlsruher Institut für Technologie
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        September 2007 - Juni 2016
+                    </div>
+                    <div class="column">
+                        Hans Grüninger Gymnasium Markgröningen mit Abschlussnote 2.6
+                    </div>
+                </div>
+                <h2 class="section-heading">Sprachen</h2>
+                <div class="row">
+                    <div class="column">
+                        Deutsch
+                    </div>
+                    <div class="column">
+                        Muttersprache
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        Englisch
+                    </div>
+                    <div class="column">
+                        Sehr gut
+                    </div>
+                </div>
+                <h2 class="section-heading">
+                    Weiteres
+                </h2>
+                <div class="row">
+                    <div class="column">
+                        Youngstars Lab 2019
+                    </div>
+                    <div class="column">
+                        Seminar für unternehmerisches Denken und Handeln im Unternehmenskontext 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        BWINF
+                    </div>
+                    <div class="column">
+                        1. Preis in der Juniorliga
+                    </div>
+
+                </div>
+                <h2 class="section-heading">
+                    Referenzen
+                </h2>
+                <div class="row">
+                    <div class="column">
+                        <a class="project-link" href="https://gitlab.com/TheCPPanda/libkdbx">Libkdbx</a>
+                        <p>https://gitlab.com/TheCPPanda/libkdbx</p>
+                    </div>
+                    <div class="column">
+                        Libkdbx ist eine Python Library um mit Keepass2 Dateien zu arbeiten.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <a class="project-link" href="https://gitlab.com/TheCPPanda/documentservice">DocumentService</a>
+                        <p>https://gitlab.com/TheCPPanda/libkdbx</p>
+                    </div>
+                    <div class="column">
+                        Spring Boot Lernprojekt um Dokumente zu versionieren.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
