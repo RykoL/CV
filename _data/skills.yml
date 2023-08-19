@@ -1,0 +1,48 @@
+- group: Languages
+  skills:
+    - name: Typescript
+      level: 5
+    - name: Java
+      level: 5
+    - name: Scala
+      level: 3
+    - name: Python
+      level: 5
+    - name: Kotlin
+      level: 4
+
+- group: Frameworks
+  skills:
+    - name: React
+      level: 4
+    - name: Single SPA
+      level: 5
+    - name: Spring Boot
+      level: 4
+    - name: KTor
+      level: 2
+    - name: Spark
+      level: 3
+- group: Practices
+  skills:
+    - name: CI/CD
+      level: 5
+    - name: TDD
+      level: 5
+    - name: Domain Driven Design
+      level: 3
+    - name: Coaching
+      level: 4
+    - name: Facilitation
+      level: 4
+    - name: Stakeholder management
+      level: 3
+
+- group: Tools
+  skills:
+    - name: Docker
+      level: 5
+    - name: AWS
+      level: 4
+    - name: Terraform
+      level: 4

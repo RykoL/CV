@@ -1,0 +1,32 @@
+- company: Thoughtworks
+  jobs:
+    - title: Senior Consultant Software Developer
+      from: Nov 2022
+      until: today
+      description: "Worked as a Fullstack developer for a german automotive   client. The project entailed building a new system for maintaining product data. During this time I worked on multiple parts of the data ingestion pipeline and was the leading developer for the initiative of incorperating data from a new product group."
+    - title: Consultant Software Developer
+      from: Aug 2021
+      until: Nov 2022
+      description: "Worked as Fullstack developer on a sales portal for charging infrastructure. Contributed to implementing a state engine for the fulfillment lifecycle of
+an order, handling payments and handling invoices. Also worked on infrastructural changes such as moving to a new identity provider,
+refactoring parts of the continous delivery pipeline and adapting AWS infrastructure to new requirements using Terraform."
+    - title: Junior Consultant Software Developer
+      from: Jan 2021
+      until: Aug 2021
+      description: "Worked on an internal sales application for a german automotive client in a multivendor setup. Led an architectural shift from a monolithic frontend to a runtime integrated micro frontend architecture, allowing for more independent delivery by the teams. Consulted the teams in terms of technical and architectural advisory for the next product increment."
+- company: Makeversion Medien Design GmbH
+  jobs:
+    - title: Junior Software Developer
+      from: Jan 2020
+      until: Dec 2020
+      description: "Developed an ETL tool to assemble 3D scenes for specific media output channels. I was responsible for satisfying the
+needs of stakeholders, for building a fast and reliable data pipeline.
+The project used Python with the SDK of a well known CPU raytracer in conjunction with industry standard 3D content creation tools."
+    - title: Apprentice Fachinformatiker Anwendungsentwicklung
+      from: Sep 2017
+      until: Jan 2020
+      description: "Developed and maintained various in-house web services used to generate 3D media. During this time I learned to work in an agile environment developing microservice application."
+    - title: Intern
+      from: Jul 2017
+      until: Aug 2017
+      description: "Helped maintaining an asynchronous web socket application that supported a realtime product configuration solution by increasing test coverage and on-premise deployment processes."

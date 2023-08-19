@@ -1,0 +1,14 @@
+            <h4 class="left-bar-header">Skills</h4>
+            <ul class="undecorated-list skill-bar">
+                {% for skill in site.data.skills %}
+                    <li>
+                        {{skill.name}}
+                        <div>
+                            {% for i in (1..skill.level) %}
+                                <span>▰</span>
+                            {% endfor %}
+                        </div>
+                    </li>
+                {% endfor %}
+
+            </ul>

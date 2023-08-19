@@ -1,0 +1,12 @@
+- name: Libkdbx
+  link: https://gitlab.com/TheCPPanda/libkdbx
+  description: "Python library to interact with KeePass2 files for managing secrets."
+- name: Product Configurator
+  link: https://github.com/RykoL/product-configurator-backend
+  description: "Experimental platform to setup product configuration and visualization that was built using Domain Driven Design."
+- name: Micro frontend POC
+  link: "https://github.com/RykoL/LayoutFrameExperiment"
+  description: "Small proof of concept to show how micro frontends can be integrated into a parent application with the need of a huge integration framework."
+- name: Growlab automation
+  link: "https://github.com/RykoL/Growlab-Raspberry-Configuration"
+  description: "Infrastructure automation and provisioning for the growlab challenge by alex ellis using ansible, terraform and google cloud."
