@@ -1,0 +1,184 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 29.7cm;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.main-viewport {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#left-bar {
+    width: 30%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #1d1e18;
+    color: #DAE8F2;
+    padding-bottom: 7.9mm;
+}
+
+#right-bar {
+    padding-left: 2%;
+    padding-right: 1%;
+    border-right: 2px solid #eee;
+    background-color: #F6EDE9;
+    flex-grow: 1;
+    padding-bottom: 7mm;
+}
+
+.circular-img {
+    width: 150px;
+    margin-top: 2;
+    margin: 2em auto;
+    display: block;
+    border-radius: 50%;
+    border: 3px solid #3E6990;
+}
+
+#main-heading {
+    margin-top: 0;
+    padding-top: 0.2em;
+}
+
+.undecorated-list {
+    list-style: none;
+    padding: 0px;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #3E6990;
+}
+
+h3 {
+    color: #CEB992;
+}
+
+
+.section-heading {
+    margin-top: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+    color: #3E6990;
+    border-bottom: 1px solid #3E6990;
+}
+
+.left-bar-header {
+    color: #3E6990;
+}
+
+#name {
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#name-box {
+    text-align: center;
+}
+
+#name-box h4, h5 {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #3E6990;
+    font-weight: bold;
+}
+
+.project-link:visited {
+    color: #3E6990;
+    font-weight: bold;
+}
+
+.timeline {
+    position: relative;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #6c98c0;
+    top: 0.5rem;
+    bottom: 0;
+    left: 5px;
+    margin-left: -3px;
+}
+
+.timeline section {
+    position: relative;
+}
+
+.job-entry {
+    list-style: none;
+    margin-top: 0px;
+}
+
+.job-entry::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #F6EDE9;
+    background-color: #3E6990;
+    top: 5px;
+    left: -4px;
+    z-index: 1;
+}
+
+.job-description {
+    color: rgba(0,0,0,.6);
+}
+
+.job-title {
+    font-weight: bold;
+}
+.contact-icon {
+    background: url('mobile.svg') no-repeat;
+}
+
+.email-icon {
+    background: url('mail.svg') no-repeat;
+}
+
+.birthday-icon {
+    background: url('cake.svg') no-repeat;
+}
+
+.home-icon {
+    background: url('home.svg') no-repeat;
+}
+
+.icon {
+    background-position: left;
+    background-size: 20px;
+    padding-left: 25px;
+}
+
+.skill-bar span {
+    font-size: 1.4em;
+}
