@@ -72,15 +72,15 @@
                     </div>
                 </div>
             </div>
-            <div id="referenzen">
+            <div id="references">
                 <h2 class="section-heading">References</h2>
                 {% for reference in site.data.references %}
                 <div class="row">
-                    <div class="column">
+                    <div class="references-link-column">
                         <a class="project-link" href=
                                   "{{reference.link}}">{{reference.name}}</a>
                     </div>
-                    <div class="column">
+                    <div class="column references-description">
                         {{reference.description}}
                     </div>
                 </div>

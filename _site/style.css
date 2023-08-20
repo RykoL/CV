@@ -15,7 +15,6 @@ body {
 }
 
 #left-bar {
-    width: 30%;
     padding-left: 3%;
     padding-right: 3%;
     background-color: #1d1e18;
@@ -88,10 +87,6 @@ h3 {
 }
 
 .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
     margin-bottom: 15px;
 }
 
@@ -152,6 +147,7 @@ h3 {
 
 .job-description {
     color: rgba(0,0,0,.6);
+    max-width: 50%;
 }
 
 .job-title {
@@ -185,4 +181,18 @@ h3 {
 
 .skill-bar {
     padding-left: 1rem;
+}
+
+#references {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+}
+
+.references-description {
+    max-width: 50%;
 }
