@@ -182,3 +182,7 @@ h3 {
 .skill-bar span {
     font-size: 1.4em;
 }
+
+.skill-bar {
+    padding-left: 1rem;
+}
