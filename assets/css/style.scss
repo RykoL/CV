@@ -1,3 +1,7 @@
+---
+---
+$baseurl: "{{ site.baseurl }}";
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     min-height: 29.7cm;
@@ -153,19 +157,19 @@ h3 {
     font-weight: bold;
 }
 .contact-icon {
-    background: url('/assets/icons/mobile.svg') no-repeat;
+    background: url($baseurl + '/assets/icons/mobile.svg') no-repeat;
 }
 
 .email-icon {
-    background: url('/assets/icons/mail.svg') no-repeat;
+    background: url($baseurl + '/assets/icons/mail.svg') no-repeat;
 }
 
 .birthday-icon {
-    background: url('/assets/icons/cake.svg') no-repeat;
+    background: url($baseurl + '/assets/icons/cake.svg') no-repeat;
 }
 
 .home-icon {
-    background: url('/assets/icons/home.svg') no-repeat;
+    background: url($baseurl + '/assets/icons/home.svg') no-repeat;
 }
 
 .icon {
