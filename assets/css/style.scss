@@ -5,7 +5,7 @@ $baseurl: "{{ site.baseurl }}";
 :root {
     --main-content-bg-color: #F6EDE9;
     --background-color-dark: #1d1e18;
-    --primary-color-dark-contrast: #3E6990;
+    --primary-color-contrast-dark: #70a4d3;
 }
 
 body {
@@ -42,7 +42,7 @@ body {
 
 .circular-img {
     width: 150px;
-    margin-top: 2;
+    height: 150px;
     margin: 2em auto;
     display: block;
     border-radius: 50%;
@@ -79,7 +79,7 @@ h3 {
 }
 
 .left-bar-header {
-    color: #3E6990;
+    color : var(--primary-color-contrast-dark);
 }
 
 #skill-section {
@@ -165,6 +165,10 @@ h3 {
     max-width: 50%;
 }
 
+.company-heading {
+    color: #3E6990;
+}
+
 .job-title {
     font-weight: bold;
 }
@@ -215,11 +219,11 @@ h3 {
 .btn {
     color: white;
     background-color: var(--background-color-dark);
-    border: 1px solid #3E6990;
+    border: 1px solid var(--primary-color-contrast-dark);
     font-size: 1rem;
     padding: .5rem;
     font-weight: 400;
-    color: #3E6990;
+    color: var(--primary-color-contrast-dark);
 }
 
 .btn:active {
