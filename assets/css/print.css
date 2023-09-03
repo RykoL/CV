@@ -1,0 +1,43 @@
+@page {
+    size: A4 portrait;
+}
+html {
+    background-color: var(--main-content-bg-color)
+}
+body {
+    height: 100vh;
+}
+.main-viewport {
+    max-width: 210cm;
+}
+
+.job-description {
+    max-width: 100%;
+}
+.references-description {
+    max-width: 100%;
+}
+
+.row {
+    grid-template-columns: 100%;
+}
+
+#job-content {
+    padding-right: 1rem;
+}
+
+.company-heading {
+    break-before: auto;
+}
+
+.timeline-entry {
+    break-inside: avoid;
+}
+
+#left-bar {
+    min-height: 100%;
+}
+
+.references {
+    break-inside: avoid;
+}

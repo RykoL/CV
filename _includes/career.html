@@ -2,10 +2,10 @@
     <h2 class="section-heading">Experience</h2>
     {% for employment in site.data.career %}
         <div class="company-card">
-            <h4>{{employment.company}}</h4>
+            <h4 class="company-heading">{{employment.company}}</h4>
             <div class="timeline">
                 {% for job in employment.jobs %}
-                    <section>
+                    <section class="timeline-entry">
                         <ul class="job-entry">
                             <li class="job-title">{{job.title}}</li>
                             <li>{{job.from}} - {{job.until}}</li>
