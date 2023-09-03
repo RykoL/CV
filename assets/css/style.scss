@@ -4,6 +4,8 @@ $baseurl: "{{ site.baseurl }}";
 
 :root {
     --main-content-bg-color: #F6EDE9;
+    --background-color-dark: #1d1e18;
+    --primary-color-dark-contrast: #3E6990;
 }
 
 body {
@@ -210,3 +212,31 @@ h3 {
     max-width: 50%;
 }
 
+.btn {
+    color: white;
+    background-color: var(--background-color-dark);
+    border: 1px solid #3E6990;
+    font-size: 1rem;
+    padding: .5rem;
+    font-weight: 400;
+    color: #3E6990;
+}
+
+.btn:active {
+    color: white;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    cursor: pointer;
+
+}
+
+.btn-pill {
+    border-radius: 9999px;
+}
+
+.btn-print {
+    width: 100%;
+    margin-top: 2rem;
+}

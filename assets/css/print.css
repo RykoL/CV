@@ -41,3 +41,7 @@ body {
 .references {
     break-inside: avoid;
 }
+
+.btn-print {
+    display: none;
+}
