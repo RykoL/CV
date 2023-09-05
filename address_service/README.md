@@ -11,10 +11,16 @@ To setup this project simply run cargo build to download dependencies and build 
 $ cargo build
 ```
 
-## Running tests
+## Run unit tests
 
-To run unit and integration tests 
+To run unit 
 
 ``` sh
 $ cargo test
+```
+
+## Run integration tests
+
+``` sh
+$ make test_integration
 ```
