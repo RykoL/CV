@@ -13,7 +13,11 @@ async fn main(req: Request, env: Env, _ctx: Context) -> Result<Response> {
 
     router
         .get("/health", |_req, _ctx| Response::ok(String::new()))
-        .get("/contact-details", |req, ctx| {
+        .get("/contact-details", |req, _ctx| {
+            if req.headers().has("Authentication")? != true {
+                return Response::error("Not authenticated.", 401);
+            }
+
             let contact_details = ContactDetails {
                 name: "John Doe".to_string(),
                 telephone: "+61 2 8503 8000".to_string(),

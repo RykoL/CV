@@ -17,7 +17,11 @@ describe("Address Service", () => {
   })
 
   it("should return contact details", async () => {
-    const response = await fetch(`${baseURL}/contact-details`);
+    const response = await fetch(`${baseURL}/contact-details`, {
+      headers: {
+        "Authentication": "Bearer some token"
+      }
+    });
     const body = await response.json();
 
     const expectedBody = {
@@ -37,5 +41,11 @@ describe("Address Service", () => {
     assert.equal(body.address.street, expectedBody.address.street);
     assert.equal(body.address.zip, expectedBody.address.zip);
     assert.equal(body.address.city, expectedBody.address.city);
+  })
+
+  it("should return status 401 if no auth token is sent", async () => {
+    const response = await fetch(`${baseURL}/contact-details`);
+
+    assert.equal(response.status, 401)
   })
 })
