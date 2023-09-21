@@ -1,5 +1,6 @@
 @page {
     size: A4 portrait;
+    margin: 0;
 }
 html {
     background-color: var(--main-content-bg-color)
