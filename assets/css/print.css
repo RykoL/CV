@@ -3,7 +3,9 @@
     margin: 0;
 }
 html {
-    background-color: var(--main-content-bg-color)
+}
+h4 {
+    color: black;
 }
 body {
     height: 100vh;
@@ -37,6 +39,17 @@ body {
 
 #left-bar {
     min-height: 100%;
+    background-color: white;
+    color: black;
+}
+
+.left-bar-header {
+    color: black;
+}
+
+#right-bar {
+    background-color: white;
+    border-left: 1px solid #3E6990;
 }
 
 .references {
@@ -45,4 +58,14 @@ body {
 
 .btn-print {
     display: none;
+}
+
+.project-link {
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+.project-link:visited {
+    color: black;
 }
