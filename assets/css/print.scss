@@ -1,3 +1,7 @@
+---
+---
+$baseurl: "{{ site.baseurl }}";
+
 @page {
     size: A4 portrait;
     margin: 0;
@@ -68,4 +72,20 @@ body {
 
 .project-link:visited {
     color: black;
+}
+
+.home-icon {
+    background: url($baseurl + '/assets/icons/home_dark.svg') no-repeat;
+}
+
+.contact-icon {
+    background: url($baseurl + '/assets/icons/mobile_dark.svg') no-repeat;
+}
+
+.email-icon {
+    background: url($baseurl + '/assets/icons/mail_dark.svg') no-repeat;
+}
+
+.birthday-icon {
+    background: url($baseurl + '/assets/icons/cake_dark.svg') no-repeat;
 }
