@@ -11,6 +11,7 @@ import io.ktor.client.call.*
 import io.ktor.client.request.*
 import io.ktor.http.*
 import io.ktor.serialization.kotlinx.json.*
+import io.ktor.server.config.*
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation as ClientContentNegotiation
 import io.ktor.server.testing.*
 import org.junit.Before
@@ -26,7 +27,7 @@ class ContactRoutesTest {
     fun setup() {
         token = JWT.create()
             .withAudience("test-audience")
-            .withIssuer("test-issuers")
+            .withIssuer("test-issuer")
             .withExpiresAt(Date(System.currentTimeMillis() + 60000))
             .sign(Algorithm.HMAC256("some-secret"))
     }
@@ -34,6 +35,9 @@ class ContactRoutesTest {
 
     @Test
     fun `returns contact details`() = testApplication {
+        environment {
+            config = ApplicationConfig("application-test.conf")
+        }
         application {
             main()
         }
@@ -59,6 +63,9 @@ class ContactRoutesTest {
 
     @Test
     fun `returns 401 if user is not authenticated`() = testApplication {
+        environment {
+            config = ApplicationConfig("application-test.conf")
+        }
         application {
             main()
         }
@@ -76,6 +83,9 @@ class ContactRoutesTest {
 
     @Test
     fun `returns 401 if token is not valid`() = testApplication {
+        environment {
+            config = ApplicationConfig("application-test.conf")
+        }
         application {
             main()
         }

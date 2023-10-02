@@ -13,7 +13,7 @@ fun Application.configureSecurity(securityConfiguration: SecurityConfiguration) 
                 JWT
                     .require(Algorithm.HMAC256(securityConfiguration.secret))
                     .withAudience(securityConfiguration.audience)
-                    .withIssuer(securityConfiguration.secret)
+                    .withIssuer(securityConfiguration.issuer)
                     .build()
             )
             validate { credential ->
