@@ -27,6 +27,7 @@ application {
 ktor {
     docker {
         localImageName.set("contact-service")
+        imageTag.set("latest")
         externalRegistry.set(
             DockerImageRegistry.externalRegistry(
                 username = providers.environmentVariable("CR_USERNAME"),
