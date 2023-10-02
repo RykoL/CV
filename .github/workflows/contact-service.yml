@@ -4,7 +4,7 @@ jobs:
   test-and-deploy:
     runs-on: ubuntu-latest
     env:
-      CR_USERNAME: '${{ GITHUB_ACTOR }}'
+      CR_USERNAME: ${{ github.actor }}
       CR_PASSWORD: '${{ secrets.GITHUB_TOKEN }}'
       CR_HOST: 'ghcr.io'
     defaults:
