@@ -1,11 +1,9 @@
-import io.ktor.plugin.features.*
-
 val ktor_version: String by project
 val kotlin_version: String by project
 val logback_version: String by project
 
 kotlin {
-    jvmToolchain(19)
+    jvmToolchain(17)
 }
 
 plugins {
@@ -22,21 +20,6 @@ application {
 
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")
-}
-
-ktor {
-    docker {
-        localImageName.set("contact-service")
-        imageTag.set("latest")
-        externalRegistry.set(
-            DockerImageRegistry.externalRegistry(
-                username = providers.environmentVariable("CR_USERNAME"),
-                password = providers.environmentVariable("CR_ACCESS_TOKEN"),
-                project = providers.environmentVariable("CR_REGISTRY"),
-                hostname = providers.environmentVariable("CR_HOST")
-            )
-        )
-    }
 }
 
 repositories {

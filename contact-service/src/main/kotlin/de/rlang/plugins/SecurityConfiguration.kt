@@ -10,9 +10,9 @@ data class SecurityConfiguration(
     companion object {
         fun fromEnvironment(environment: ApplicationEnvironment): SecurityConfiguration =
             SecurityConfiguration(
-                audience = environment.config.property("jwtConfig.audience").getString(),
-                issuer = environment.config.property("jwtConfig.issuer").getString(),
-                secret = environment.config.property("jwtConfig.secret").getString()
+                audience = environment.config.property("jwt.audience").getString(),
+                issuer = environment.config.property("jwt.issuer").getString(),
+                secret = environment.config.property("jwt.secret").getString()
             )
     }
 }
