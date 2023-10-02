@@ -31,7 +31,7 @@ ktor {
             DockerImageRegistry.externalRegistry(
                 username = providers.environmentVariable("CR_USERNAME"),
                 password = providers.environmentVariable("CR_ACCESS_TOKEN"),
-                project = provider { "CV" },
+                project = providers.environmentVariable("CR_REGISTRY"),
                 hostname = providers.environmentVariable("CR_HOST")
             )
         )
