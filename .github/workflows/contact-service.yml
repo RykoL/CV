@@ -4,9 +4,9 @@ jobs:
   test-and-deploy:
     runs-on: ubuntu-latest
     env:
-      CR_USERNAME: ${{ env.GITHUB_ACTOR }}
-      CR_PASSWORD: ${{ env.GITHUB_TOKEN }}
-      CR_HOST: ghcr.io
+      CR_USERNAME: '${{ GITHUB_ACTOR }}'
+      CR_PASSWORD: '${{ secrets.GITHUB_TOKEN }}'
+      CR_HOST: 'ghcr.io'
     defaults:
       run:
             working-directory: ./contact-service
