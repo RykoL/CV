@@ -4,8 +4,8 @@ jobs:
   test-and-deploy:
     runs-on: ubuntu-latest
     env:
-      CR_USERNAME: {{ env.GITHUB_ACTOR }}
-      CR_PASSWORD: {{ env.GITHUB_TOKEN }}
+      CR_USERNAME: ${{ env.GITHUB_ACTOR }}
+      CR_PASSWORD: ${{ env.GITHUB_TOKEN }}
       CR_HOST: ghcr.io
     defaults:
       run:
