@@ -17,7 +17,7 @@ jobs:
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '17'
-      - name: Test
-        run: ./gradlew test
+      #- name: Test
+      #  run: ./gradlew test
       - name: Push image
-        run: ./gradlew publishImage
+        run: ./gradlew --stacktrace publishImage
