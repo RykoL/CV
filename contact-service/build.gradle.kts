@@ -1,5 +1,4 @@
 import io.ktor.plugin.features.*
-import org.jetbrains.kotlin.gradle.utils.provider
 
 val ktor_version: String by project
 val kotlin_version: String by project
@@ -31,7 +30,7 @@ ktor {
             DockerImageRegistry.externalRegistry(
                 username = providers.environmentVariable("CR_USERNAME"),
                 password = providers.environmentVariable("CR_ACCESS_TOKEN"),
-                project = provider { "" },
+                project = provider { "CV" },
                 hostname = providers.environmentVariable("CR_HOST")
             )
         )
