@@ -1,8 +1,5 @@
 name: Contact Service
-on:
-  push:
-    paths:
-      - "contact-service/**/*`"
+on: push
 jobs:
   test-and-deploy:
     runs-on: ubuntu-latest
