@@ -6,7 +6,7 @@ jobs:
     env:
       CR_USERNAME: ${{ github.actor }}
       CR_PASSWORD: '${{ secrets.GITHUB_TOKEN }}'
-      CR_REGISTRY: '${{ github.registry }}/${{ env.CR_USERNAME }}'
+      CR_REGISTRY: ${{ github.repository }}
       CR_HOST: 'ghcr.io'
     defaults:
       run:
