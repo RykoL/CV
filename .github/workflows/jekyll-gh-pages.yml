@@ -26,12 +26,18 @@ concurrency:
 jobs:
   # Build job
   build:
+    env:
+      RENDER_API_TOKEN: ${{ secrets.RENDER_API_TOKEN }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: Setup node
+        uses: actions/setup-node@v3
+      - name: Write Contact-Service url to data
+        run: node scripts/get_deployment_url.js
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
