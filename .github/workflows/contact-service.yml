@@ -1,5 +1,7 @@
 name: Contact Service
-on: push
+on:
+  paths:
+    - contact-service
 jobs:
   test-and-deploy:
     runs-on: ubuntu-latest
@@ -37,5 +39,3 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-      - name: Trigger redeployment
-        run: curl ${{ secrets.RENDER_REDEPLOY_HOOK }}
