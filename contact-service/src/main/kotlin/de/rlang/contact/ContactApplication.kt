@@ -10,7 +10,7 @@ fun Application.contactModule() {
     routing {
         getContactDetails()
 
-        get("/health") {
+        get("health") {
             call.respond(HttpStatusCode.OK)
         }
     }

@@ -12,7 +12,6 @@ fun Application.main() {
     install(ContentNegotiation) {
         json()
     }
-    this.log.info(environment.config.toMap().toString())
     configureSecurity(SecurityConfiguration.fromEnvironment(environment))
     contactModule()
 }
