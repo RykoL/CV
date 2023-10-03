@@ -1,7 +1,8 @@
 name: Contact Service
 on:
-  paths:
-    - contact-service
+  push:
+    paths:
+      - 'contact-service'
 jobs:
   test-and-deploy:
     runs-on: ubuntu-latest
