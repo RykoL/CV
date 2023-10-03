@@ -4,7 +4,7 @@ jobs:
   test-and-deploy:
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: 'contact-service'
+      IMAGE_NAME: ${{ github.repository }}
       REGISTRY: 'ghcr.io'
     defaults:
       run:
