@@ -23,6 +23,5 @@ fun Route.getContactDetails() {
             val contactDetails = ContactDetailsPresentation.fromContactDetails(contactDetailsService.getContactDetails())
             call.respond(MustacheContent("contactDetails.hbs", mapOf("contactDetails" to contactDetails)))
         }
-
     }
 }

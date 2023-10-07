@@ -95,6 +95,10 @@
     </div>
     <script type="module">
      import { isMediaTypePrint, toggleDetailElementsOpen } from './assets/js/index.js'
+     import { getContactDetails } from './assets/js/contactDetails.js'
+
+
+
      window.addEventListener('beforeprint', () => {
          toggleDetailElementsOpen()
      })
@@ -102,6 +106,19 @@
 
          toggleDetailElementsOpen()
      }
+    </script>
+    <script type="module">
+     import { getContactDetails, getTokenFromURL } from './assets/js/contactDetails.js'
+
+     const token = getTokenFromURL();
+     if (token !== null) {
+         getContactDetails("{{site.data.url.contactServicePublicURL}}", token).then(markup => {
+             const container = document.getElementById('contact-data');
+             container.innerHTML = markup
+         })
+     }
+
+
     </script>
 </body>
 </html>
