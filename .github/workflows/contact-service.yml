@@ -1,5 +1,6 @@
 name: Contact Service
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'contact-service'
