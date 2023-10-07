@@ -28,7 +28,7 @@ fun Application.main() {
         allowMethod(HttpMethod.Patch)
         allowHeader(HttpHeaders.Authorization)
         allowHost("localhost:4000")
-        allowHost("rykol.github.io")
+        allowHost("rykol.github.io", schemes = listOf("https") )
     }
     configureSecurity(SecurityConfiguration.fromEnvironment(environment))
     contactModule()
