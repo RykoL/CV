@@ -121,12 +121,12 @@ class ContactRoutesTest {
             }
 
             val expectedBody = """
-                <section>
-                    <p>Foo strt. 13, 12345 Berlin</p>
-                    <p>foo@bar.com</p>
-                    <p>0123456789</p>
-                    <p>13.11.1990</p>
-                </section>
+               <ul class="undecorated-list">
+                   <li class="icon home-icon">Foo strt. 13, 12345 Berlin</li>
+                   <li class="icon email-icon">foo@bar.com</li>
+                   <li class="icon contact-icon">0123456789</li>
+                   <li class="icon birthday-icon">13.11.1990</li>
+               </ul>
             """.trimIndent()
 
             assertEquals(HttpStatusCode.OK, response.status)
