@@ -20,6 +20,7 @@
                 <h4>Senior Consultant Software Developer</h4>
             </div>
             {% include contact.html %}
+            {% include contactLoader.html %}
             {% include skills.html %}
             <button class="btn btn-pill btn-print" onclick="window.print()">Print</button>
         </div>
@@ -108,11 +109,13 @@
      }
     </script>
     <script type="module">
-     import { getContactDetails, getTokenFromURL } from './assets/js/contactDetails.js'
+     import { getContactDetails, getTokenFromURL, activateContactDetailsLoader } from './assets/js/contactDetails.js'
 
      const token = getTokenFromURL();
      if (token !== null) {
-         getContactDetails("{{site.data.url.contactServicePublicURL}}", token).then(markup => {
+         activateContactDetailsLoader()
+         .then(() => getContactDetails("{{site.data.url.contactServicePublicURL}}", token))
+         .then(markup => {
              const container = document.getElementById('contact-data');
              container.innerHTML = markup
          })
