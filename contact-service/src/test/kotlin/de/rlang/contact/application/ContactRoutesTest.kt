@@ -47,7 +47,7 @@ class ContactRoutesTest {
 
             val expectedBody = ContactDetails(
                 PersonalData("John Doe", "13.11.1990", "Singer"),
-                Address("Foo strt.", "Berlin", "12345"),
+                Address("Foo strt. 13", "Berlin", "12345"),
                 Contact("foo@bar.com", "0123456789", "https://linkedin.com/in/peter.panski"),
             )
 

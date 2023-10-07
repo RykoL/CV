@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'contact-service'
+      - './contact-service'
 jobs:
   test-and-deploy:
     runs-on: ubuntu-latest
