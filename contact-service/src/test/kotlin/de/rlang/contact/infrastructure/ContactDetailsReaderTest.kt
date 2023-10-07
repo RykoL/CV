@@ -15,7 +15,7 @@ class ContactDetailsReaderTest {
              role: Singer
              birthday: 13.11.1990
            address:
-             street: Foo strt.
+             street: Foo strt. 13
              city: Berlin
              zip: 12345
            contact:
