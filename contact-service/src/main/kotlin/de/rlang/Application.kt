@@ -1,6 +1,7 @@
 package de.rlang
 
 import com.github.mustachejava.DefaultMustacheFactory
+import de.rlang.access.accessModule
 import de.rlang.contact.contactModule
 import de.rlang.plugins.*
 import io.ktor.http.*
@@ -31,5 +32,6 @@ fun Application.main() {
         allowHost("rykol.github.io", schemes = listOf("https") )
     }
     configureSecurity(SecurityConfiguration.fromEnvironment(environment))
+    accessModule()
     contactModule()
 }
