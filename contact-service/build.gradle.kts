@@ -40,6 +40,7 @@ dependencies {
     implementation("net.mamoe.yamlkt:yamlkt:0.13.0")
     implementation("io.ktor:ktor-server-mustache-jvm:2.3.4")
     implementation("io.ktor:ktor-server-cors-jvm:2.3.4")
+    implementation("org.bouncycastle:bcprov-jdk15to18:1.76")
     testImplementation("org.amshove.kluent:kluent:1.73")
     testImplementation(kotlin("test"))
     testImplementation("io.mockk:mockk:1.9.3")

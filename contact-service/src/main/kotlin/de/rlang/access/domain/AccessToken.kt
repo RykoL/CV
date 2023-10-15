@@ -12,17 +12,17 @@ data class AccessToken(
     val token: String
 ) {
     companion object {
-        fun create(visitor: String, expiresAt: String, securityConfiguration: SecurityConfiguration): AccessToken {
+        fun create(forUser: String, expiresAt: String, securityConfiguration: SecurityConfiguration, role: Role = Role.VISITOR): AccessToken {
             val expirationDate = SimpleDateFormat("yyyy-MM-dd").parse(expiresAt)
             val jwt = JWT.create()
                 .withAudience(securityConfiguration.audience)
                 .withIssuer(securityConfiguration.issuer)
-                .withSubject(visitor)
-                .withClaim("role", Role.VISITOR.toString())
+                .withSubject(forUser)
+                .withClaim("role", role.toString())
                 .withExpiresAt(expirationDate)
                 .sign(Algorithm.HMAC256(securityConfiguration.secret))
 
-            return AccessToken(visitor, expirationDate, jwt)
+            return AccessToken(forUser, expirationDate, jwt)
         }
     }
 }

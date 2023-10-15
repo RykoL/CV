@@ -7,8 +7,6 @@ import io.ktor.server.routing.*
 
 fun Application.accessModule() {
     routing {
-        authenticate {
-            access()
-        }
+        access()
     }
 }
