@@ -10,6 +10,9 @@
                             <li class="job-title">{{job.title}}</li>
                             <li>{{job.from}} - {{job.until}}</li>
                             <li class="job-description">{{job.description}}</li>
+                            <li class="job-technologies">
+                                - {{ job.technologies | join: ", "}}
+                            </li>
                         </ul>
                     </section>
                 {% endfor %}
