@@ -1,22 +1,22 @@
-<div id="job-content">
+<section id="career-section">
     <h2 class="section-heading">Experience</h2>
     {% for employment in site.data.career %}
         <div class="company-card">
             <h3 class="company-heading">{{employment.company}}</h3>
             <div class="timeline">
                 {% for job in employment.jobs %}
-                    <section class="timeline-entry">
-                        <ul class="job-entry">
-                            <li class="job-title">{{job.title}}</li>
-                            <li>{{job.from}} - {{job.until}}</li>
-                            <li class="job-description">{{job.description}}</li>
-                            <li class="job-technologies">
-                                - {{ job.technologies | join: ", "}}
-                            </li>
-                        </ul>
-                    </section>
+                    <article class="job-entry">
+                        <section class="job-header">
+                            <p class="job-title">{{job.title}}</p>
+                            <p class="job-duration">{{job.from}} - {{job.until}}</p>
+                        </section>
+                        <p>{{job.description}}</p>
+                        <p class="job-technologies">
+                            - {{ job.technologies | join: ", "}}
+                        </p>
+                    </article>
                 {% endfor %}
             </div>
         </div>
     {% endfor %}
-</div>
+</section>
