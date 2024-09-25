@@ -1,8 +1,36 @@
+- company: Codecentric AG
+  jobs:
+    - title: (Senior) IT Consutant
+      from: Jun 2024
+      until: Today
+      description: "Worked in an infrastructure Platform team for the german government. In this team i took responsibility for streamlining deployments, enabling product teams and ensuring stable operations on on-premise infrastructure."
+      technologies:
+        - Java
+        - Python
+        - Docker
+        - Kubernetes
+        - Gitlab CI
+        - SOPS
+        - Grafana
+        - Prometheus
+    - title: (Senior) IT Consutant
+      from: Jun 2024
+      until: Today
+      description: "Further enhanced my skills in data engineering by building a data POC following the medallion architecture. The projected is fully automated in a continous integration pipeline following the best practices of TDD, Continous Delivery, Trunk Based Development and Infrastructure as Code."
+      technologies:
+        - Python
+        - Spark
+        - Docker
+        - Databricks
+        - Gitlab CI
+        - Azure
+        - Terraform
+        - Soda Core (Data quality)
 - company: Thoughtworks
   jobs:
     - title: Senior Consultant Software Developer
       from: Nov 2022
-      until: today
+      until: May 2024
       description: "Worked as a Fullstack developer for a german automotive client. The project entailed building a new system for maintaining product data. During this time I worked on multiple parts of the data ingestion pipeline and was the leading developer for the initiative of incorperating data from a new product group."
       technologies:
         - Scala
@@ -38,7 +66,7 @@ refactoring parts of the continous delivery pipeline and adapting AWS infrastruc
         - Single SPA
         - AWS
         - Terraform
-- company: Makeversion Medien Design GmbH
+- company: Mackevision Medien Design GmbH
   jobs:
     - title: Junior Software Developer
       from: Jan 2020

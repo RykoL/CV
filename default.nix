@@ -3,6 +3,6 @@
 
 pkgs.mkShell {
   buildInputs = [
-    pkgs.elixir
+    pkgs.jekyll
   ];
 }
