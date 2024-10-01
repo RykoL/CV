@@ -1,22 +1,13 @@
 <section id="skill-section">
     <h2 class="sidebar-heading">Skills</h2>
-    {% for skills in site.data.skills %}
-        <ul class="undecorated-list skill-bar">
-            {% assign sorted_skills = skills.skills | sort: "level" | reverse %}
-            {% for skill in sorted_skills %}
-                {% assign remaining_points = 5 | minus: skill.level %}
-                <li>
-                    {{skill.name}}
-                    <div>
-                        {% for i in (1..skill.level) %}
-                        <span>▰</span>
-                        {% endfor %}
-                        {% for i in (1..remaining_points) %}
-                        <span style="font-size: .9rem;">▱</span>
-                        {% endfor %}
-                    </div>
-                </li>
-            {% endfor %}
-        </ul>
-    {% endfor %}
+    <div id="skills">
+        {% for skills in site.data.skills %}
+            {% for skill in skills.skills %}
+                <div class="skill">
+                    <p>{{skill.name}}</p>
+                    <progress value={{skill.level}} max="5"></progress>
+                </div>
+                {% endfor %}
+        {% endfor %}
+    </div>
 </section>

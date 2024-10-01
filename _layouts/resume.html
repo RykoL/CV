@@ -17,75 +17,13 @@
         {% include contact.html %}
         {% include aboutme.html %}
         {% include career.html %}
-        {% include skills.html %}
-        <!--<div id="right-bar">
-            <div id="education">
-                <h2 class="section-heading">Education</h2>
-                <div class="company-card">
-                    <div class="timeline">
-                        <section>
-                            <ul class="job-entry">
-                                <li class="job-title">Apprenticeship
-                                zum Fachinformatiker
-                                Anwendungsentwicklung</li>
-                                <li>Sep 2017 - Jan 2020</li>
-                                <li class="job-description">
-                                Abschlussnote Gut (82 Punkte)</li>
-                            </ul>
-                        </section>
-                        <section>
-                            <ul class="job-entry">
-                                <li class="job-title">Informatik
-                                Studium KIT</li>
-                                <li>Okt 2016 - Mär 2017</li>
-                            </ul>
-                        </section>
-                        <section>
-                            <ul class="job-entry">
-                                <li class="job-title">Abitur
-                                Hans-Grüninger-Gymnasium</li>
-                                <li>Sep 2007 - Jun 2016</li>
-                                <li class="job-description">
-                                Abschlussnote 2.7</li>
-                            </ul>
-                        </section>
-                    </div>
-                </div>
-            </div>
-            <div id="languages">
-                <h2 class="section-heading">Languages</h2>
-                <div class="row">
-                    <div class="column">
-                        German
-                    </div>
-                    <div class="column">
-                        mother tongue
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column">
-                        English
-                    </div>
-                    <div class="column">
-                        fluent
-                    </div>
-                </div>
-            </div>
-            <div id="references">
-                <h2 class="section-heading">References</h2>
-                {% for reference in site.data.references %}
-                <div class="row">
-                    <div class="references-link-column">
-                        <a class="project-link" href=
-                                  "{{reference.link}}">{{reference.name}}</a>
-                    </div>
-                    <div class="column references-description">
-                        {{reference.description}}
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>-->
+        <div class="background-blue">
+                {% include skills.html %}
+                {% include languages.html %}
+        </div>
+        <div class="background-blue"></div>
+        {% include education.html %}
+        <div class="background-blue" style="height: 100%"></div>
     </main>
 </body>
 </html>
