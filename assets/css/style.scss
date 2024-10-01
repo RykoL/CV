@@ -70,7 +70,7 @@ body {
     grid-column: 1;
     grid-row: 3;
     background: var(--primary-color-accent);
-    padding-left: 1rem;
+    padding-left: 1.5rem;
     color: white;
 }
 
@@ -91,7 +91,9 @@ body {
     grid-column: 1;
     background: var(--primary-color-accent);
     padding: 0 1rem;
+    padding-left: 1.5rem;
     color: white;
+    max-width: 80%;
 }
 
 #skills {
@@ -119,8 +121,11 @@ body {
     grid-row: 5;
     background: var(--primary-color-accent);
     padding: 0 1rem;
+    padding-left: 1.5rem;
     color: white;
     padding-bottom: 1rem;
+    break-before: page;
+    max-width: 80%;
 }
 
 #title-section {
@@ -333,7 +338,9 @@ progress[value]::-webkit-progress-value {
     padding: 1.5rem 0;
 }
 
-.skill {}
+.skill {
+    break-inside: avoid;
+}
 .skill:first-of-type {
     padding-top: 1.5rem;
 }
