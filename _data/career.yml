@@ -16,7 +16,7 @@
     - title: (Senior) IT Consutant
       from: Jun 2024
       until: Today
-      description: "Further enhanced my skills in data engineering by building a data POC following the medallion architecture. The projected is fully automated in a continous integration pipeline following the best practices of TDD, Continous Delivery, Trunk Based Development and Infrastructure as Code."
+      description: "Further enhanced my skills in data engineering by building a data POC following the medallion architecture. The projected is fully automated in a continous integration pipeline following the best practices of TDD, Continous Delivery, Trunk Based Development and Infrastructure as Code. The POC served as inspiration and starting point for colleagues getting into data engineering. "
       technologies:
         - Python
         - Spark
