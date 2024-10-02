@@ -71,9 +71,7 @@ refactoring parts of the continous delivery pipeline and adapting AWS infrastruc
     - title: Junior Software Developer
       from: Jan 2020
       until: Dec 2020
-      description: "Developed an ETL tool to assemble 3D scenes for specific media output channels. I was responsible for satisfying the
-needs of stakeholders, for building a fast and reliable data pipeline.
-The project used Python with the SDK of a well known CPU raytracer in conjunction with industry standard 3D content creation tools."
+      description: "Developed an ETL tool to assemble 3D scenes for specific media output channels. Through this pipeline, scene generation time could be reduced from a day to a couple minutes. This greatly increased the productivity of our in house artists."
       technologies:
         - Python
         - 3DS Max & Maya
@@ -81,7 +79,7 @@ The project used Python with the SDK of a well known CPU raytracer in conjunctio
     - title: Apprentice Fachinformatiker Anwendungsentwicklung
       from: Sep 2017
       until: Jan 2020
-      description: "Developed and maintained various in-house web services used to generate 3D media. During this time I learned to work in an agile environment developing microservice application."
+      description: "Developed and maintained various in-house web services used to generate 3D media. During this time I learned to work in an agile environment, developing microservice applications."
       technologies:
         - Java
         - Typescript
