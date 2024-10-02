@@ -44,9 +44,9 @@
     - title: Consultant Software Developer
       from: Aug 2021
       until: Nov 2022
-      description: "Worked as Fullstack developer on a sales portal for charging infrastructure. Contributed to implementing a state engine for the fulfillment lifecycle of
-an order, handling payments and handling invoices. Also worked on infrastructural changes such as moving to a new identity provider,
-refactoring parts of the continous delivery pipeline and adapting AWS infrastructure to new requirements using Terraform."
+      description: "Worked as Fullstack developer on a sales portal for charging infrastructure. Implemented a state engine for the fulfillment lifecycle of
+an order, handling payments and invoices. Implemented infrastructural changes such as moving to a new identity provider,
+refactoring parts of the continous delivery pipeline and adapting AWS infrastructure to move to a fully serverless stack using Terraform."
       technologies:
         - Typescript
         - NodeJs
