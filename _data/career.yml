@@ -3,7 +3,8 @@
     - title: (Senior) IT Consutant
       from: Jun 2024
       until: Today
-      description: "Worked in an infrastructure Platform team for the german government. In this team i took responsibility for streamlining deployments, enabling product teams and ensuring stable operations on on-premise infrastructure."
+      description:
+        - "Worked in an infrastructure Platform team for the german government. In this team i took responsibility for streamlining deployments, enabling product teams and ensuring stable operations on on-premise infrastructure."
       technologies:
         - Java
         - Python
@@ -31,7 +32,11 @@
     - title: Senior Consultant Software Developer
       from: Nov 2022
       until: May 2024
-      description: "Worked as a Fullstack developer for a german automotive client. The project entailed building a new system for maintaining product data. During this time I worked on multiple parts of the data ingestion pipeline and was the leading developer for the initiative of incorperating data from a new product group."
+      description:
+        - Fullstack Developer for an automotive client
+        - Led the onboarding of a new product group into the system via a data pipeline using Spark
+        - Optimized another data pipeline by 30% percent by using structured concurrency patterns
+        - Simplified deployment model of a service by moving from sidecars to an IngressController
       technologies:
         - Scala
         - Kotlin
