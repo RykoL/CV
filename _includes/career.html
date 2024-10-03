@@ -3,20 +3,18 @@
     {% for employment in site.data.career %}
         <div class="company-card">
             <h3 class="company-heading">{{employment.company}}</h3>
-            <div class="timeline">
-                {% for job in employment.jobs %}
-                    <article class="job-entry">
-                        <section class="job-header">
-                            <p class="job-title">{{job.title}}</p>
-                            <p class="job-duration">{{job.from}} - {{job.until}}</p>
-                        </section>
-                        <p class="job-description">{{job.description}}</p>
-                        <p class="job-technologies">
-                            - {{ job.technologies | join: ", "}}
-                        </p>
-                    </article>
-                {% endfor %}
-            </div>
+            {% for job in employment.jobs %}
+                <article class="job-entry">
+                    <section class="job-header">
+                        <p class="job-title">{{job.title}}</p>
+                        <p class="job-duration">{{job.from}} - {{job.until}}</p>
+                    </section>
+                    <p class="job-description">{{job.description}}</p>
+                    <p class="job-technologies">
+                        - {{ job.technologies | join: ", "}}
+                    </p>
+                </article>
+            {% endfor %}
         </div>
     {% endfor %}
 </section>

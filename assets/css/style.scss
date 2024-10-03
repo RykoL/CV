@@ -206,26 +206,6 @@ body {
     font-weight: bold;
 }
 
-.timeline {
-    position: relative;
-}
-
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 2px;
-    background-color: #6c98c0;
-    top: 0.5rem;
-    bottom: 0;
-    left: 5px;
-    margin-left: -3px;
-}
-
-.timeline article {
-    position: relative;
-    margin-bottom: .5rem;
-}
-
 .company-heading {
     padding: 1.5rem 0;
 }
@@ -251,24 +231,10 @@ body {
 
 .job-entry {
     box-sizing: border-box;
-    padding-left: 2rem;
     display: flex;
     flex-direction: column;
     gap: .5rem;
     break-inside: avoid;
-}
-
-.job-entry::after {
-    position: absolute;
-    content: "";
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    border: 2px solid #F6EDE9;
-    background-color: #3E6990;
-    top: 5px;
-    left: -4px;
-    z-index: 1;
 }
 
 .job-technologies {
