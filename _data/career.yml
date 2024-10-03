@@ -1,23 +1,30 @@
 - company: Codecentric AG
   jobs:
-    - title: (Senior) IT Consutant
+    - title: Senior IT Consutant
       from: Jun 2024
       until: Today
       description:
-        - "Worked in an infrastructure Platform team for the german government. In this team i took responsibility for streamlining deployments, enabling product teams and ensuring stable operations on on-premise infrastructure."
+        - Worked in an infrastructure team for the german government
+        - Streamlined and pushed for automatic deployments
+        - Helped service teams to build CI/CD Pipelines
+        - Supported the shift from compose to Kubernetes deployment
       technologies:
         - Java
         - Python
         - Docker
         - Kubernetes
+        - ArgoCD
         - Gitlab CI
         - SOPS
         - Grafana
         - Prometheus
-    - title: (Senior) IT Consutant
+    - title: Senior IT Consutant
       from: Jun 2024
       until: Today
-      description: "Further enhanced my skills in data engineering by building a data POC following the medallion architecture. The projected is fully automated in a continous integration pipeline following the best practices of TDD, Continous Delivery, Trunk Based Development and Infrastructure as Code. The POC served as inspiration and starting point for colleagues getting into data engineering. "
+      description:
+        - Built a data engineering POC for self learning purposes
+        - Fully automated in a continous deployment pipeline
+        - Project served as inspiration and starting point for colleagues getting into DE
       technologies:
         - Python
         - Spark
@@ -33,10 +40,10 @@
       from: Nov 2022
       until: May 2024
       description:
-        - Fullstack Developer for an automotive client
+        - Built a product for managing vehicle configurations backed by a SAT Solver for an automotive client
         - Led the onboarding of a new product group into the system via a data pipeline using Spark
-        - Optimized another data pipeline by 30% percent by using structured concurrency patterns
-        - Simplified deployment model of a service by moving from sidecars to an IngressController
+        - Optimized other data pipeline by 30% percent by using structured concurrency patterns
+        - Simplified deployment model of a service by moving from sidecars to an IngressController setup
       technologies:
         - Scala
         - Kotlin
@@ -49,9 +56,11 @@
     - title: Consultant Software Developer
       from: Aug 2021
       until: Nov 2022
-      description: "Worked as Fullstack developer on a sales portal for charging infrastructure. Implemented a state engine for the fulfillment lifecycle of
-an order, handling payments and invoices. Implemented infrastructural changes such as moving to a new identity provider,
-refactoring parts of the continous delivery pipeline and adapting AWS infrastructure to move to a fully serverless stack using Terraform."
+      description:
+        - Developed a sales / order fulfillment platform for car dealers in the EV industry
+        - Migrated identity providers from cognito to Auth0
+        - Implemented state engine for the order lifecycle using DDD
+        - Helped transitioning into a full serverless stack using Terraform
       technologies:
         - Typescript
         - NodeJs
@@ -62,7 +71,10 @@ refactoring parts of the continous delivery pipeline and adapting AWS infrastruc
     - title: Junior Consultant Software Developer
       from: Jan 2021
       until: Aug 2021
-      description: "Worked on an internal sales application for a german automotive client in a multivendor setup. Led an architectural shift from a monolithic frontend to a runtime integrated micro frontend architecture, allowing for more independent delivery by the teams. Consulted the teams in terms of technical and provided architectural advisory for the next product increment."
+      description:
+        - Built an internal sales tool, integrating multiple distributed system into a coherent user experience for an automotive client
+        - Led an architectural shift from monolithic frontends to microfrontends, allowing for faster delivery through independant deployments
+        - Consulted other vendors in web best practices, integration patterns and architect
       technologies:
         - Typescript
         - Kotlin
@@ -76,15 +88,19 @@ refactoring parts of the continous delivery pipeline and adapting AWS infrastruc
     - title: Junior Software Developer
       from: Jan 2020
       until: Dec 2020
-      description: "Developed an ETL tool to assemble 3D scenes for specific media output channels. Through this pipeline, scene generation time could be reduced from a day to a couple minutes. This greatly increased the productivity of our in house artists."
+      description:
+        - Developed an ETL tool to assemble 3D scenes for specific media output channels.
+        - Increased productivity of artists by reducing scene generation from one day to a couple of minutes
       technologies:
         - Python
+        - Luigi
         - 3DS Max & Maya
         - ArrangoDB
     - title: Apprentice Fachinformatiker Anwendungsentwicklung
       from: Sep 2017
       until: Jan 2020
-      description: "Developed and maintained various in-house web services used to generate 3D media. During this time I learned to work in an agile environment, developing microservice applications."
+      description:
+        - Developed and maintained various in-house web services used to generate 3D media.
       technologies:
         - Java
         - Typescript

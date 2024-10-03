@@ -80,6 +80,10 @@ body {
     padding-right: 1rem;;
 }
 
+#about-me-list {
+    padding-top: 1rem;
+}
+
 #career-section {
     grid-row: 4;
     grid-column: 2;
@@ -237,12 +241,34 @@ body {
     break-inside: avoid;
 }
 
+.list {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.list li {
+    padding-bottom: .25rem;
+    padding-left: .125rem;
+}
+
+.list li:last-of-type {
+    padding-bottom: 0rem;;
+}
+
 .job-technologies {
     color: rgba(0,0,0,.6);
+    padding-left: .5rem;
+    padding-bottom: 1rem;
+}
+
+.job-technologies::before {
+    content: "#";
+    padding-right: .65rem;
 }
 
 .job-title {
     font-weight: bold;
+    letter-spacing: .03125rem;
 }
 
 .sidebar-heading {
