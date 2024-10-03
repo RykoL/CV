@@ -1,13 +1,13 @@
 - company: Codecentric AG
   jobs:
-    - title: Senior IT Consutant
+    - title: Senior IT Consultant
       from: Jun 2024
       until: Today
       description:
-        - Worked in an infrastructure team for the german government
-        - Streamlined and pushed for automatic deployments
+        - Worked in an infrastructure team for a digitalization projected funded by the german government
+        - Simplified and streamlined automatic deployments, making deployments more reliable
         - Helped service teams to build CI/CD Pipelines
-        - Supported the shift from compose to Kubernetes deployment
+        - Supported the shift from docker compose to Kubernetes deployments
       technologies:
         - Java
         - Python
@@ -18,12 +18,12 @@
         - SOPS
         - Grafana
         - Prometheus
-    - title: Senior IT Consutant
+    - title: Senior IT Consultant
       from: Jun 2024
       until: Today
       description:
         - Built a data engineering POC for self learning purposes
-        - Fully automated in a continous deployment pipeline
+        - Fully automated in a continuous deployment pipeline
         - Project served as inspiration and starting point for colleagues getting into DE
       technologies:
         - Python
@@ -73,7 +73,7 @@
       until: Aug 2021
       description:
         - Built an internal sales tool, integrating multiple distributed system into a coherent user experience for an automotive client
-        - Led an architectural shift from monolithic frontends to microfrontends, allowing for faster delivery through independant deployments
+        - Led an architectural shift from monolithic frontends to micro frontends, allowing for faster delivery through independent deployments
         - Consulted other vendors in web best practices, integration patterns and architect
       technologies:
         - Typescript
@@ -114,7 +114,7 @@
     - title: Intern
       from: Jul 2017
       until: Aug 2017
-      description: "Helped maintaining an asynchronous web socket application that supported a realtime product configuration solution by increasing test coverage and on-premise deployment processes."
+      description: Helped maintaining an asynchronous web socket application that supported a realtime product configuration solution by increasing test coverage and on-premise deployment processes.
       technologies:
         - Python
         - Docker
