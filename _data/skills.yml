@@ -21,19 +21,18 @@
   skills:
     - name: CI/CD
       level: 5
-    - name: TDD
+    - name: Test Driven Development
       level: 5
-    - name: Coaching
-      level: 4
     - name: Domain Driven Design
       level: 3
-
 - group: Tools
   skills:
     - name: Docker
       level: 5
     - name: AWS
       level: 4
+    - name: Azure
+      level: 2
     - name: Terraform
       level: 4
     - name: Kubernetes

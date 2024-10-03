@@ -2,7 +2,7 @@
   jobs:
     - title: Senior IT Consultant
       from: Jun 2024
-      until: Today
+      until: Present
       description:
         - Worked in an infrastructure team for a digitalization projected funded by the german government
         - Simplified and streamlined automatic deployments, making deployments more reliable
@@ -20,7 +20,7 @@
         - Prometheus
     - title: Senior IT Consultant
       from: Jun 2024
-      until: Today
+      until: Present
       description:
         - Built a data engineering POC for self learning purposes
         - Fully automated in a continuous deployment pipeline
@@ -33,7 +33,7 @@
         - Gitlab CI
         - Azure
         - Terraform
-        - Soda Core (Data quality)
+        - Soda Core
 - company: Thoughtworks
   jobs:
     - title: Senior Consultant Software Developer
@@ -41,7 +41,7 @@
       until: May 2024
       description:
         - Built a product for managing vehicle configurations backed by a SAT Solver for an automotive client
-        - Led the onboarding of a new product group into the system via a data pipeline using Spark
+        - Led the development of a new data ingestion pipeline
         - Optimized other data pipeline by 30% percent by using structured concurrency patterns
         - Simplified deployment model of a service by moving from sidecars to an IngressController setup
       technologies:

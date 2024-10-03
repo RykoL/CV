@@ -104,6 +104,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    break-inside: auto;
 }
 
 #education-section {
@@ -128,7 +129,6 @@ body {
     padding-left: 1.5rem;
     color: white;
     padding-bottom: 1rem;
-    break-before: page;
     max-width: 80%;
 }
 
@@ -211,7 +211,9 @@ body {
 }
 
 .company-heading {
-    padding: 1.5rem 0;
+    padding: 1.25rem 0;
+    padding-top: 1rem;
+    text-align: center;
 }
 
 .company-card {
@@ -239,6 +241,7 @@ body {
     flex-direction: column;
     gap: .5rem;
     break-inside: avoid;
+    margin-bottom: 1rem;
 }
 
 .list {
@@ -247,18 +250,16 @@ body {
 }
 
 .list li {
-    padding-bottom: .25rem;
     padding-left: .125rem;
 }
 
 .list li:last-of-type {
-    padding-bottom: 0rem;;
+    padding-bottom: 0rem;
 }
 
 .job-technologies {
     color: rgba(0,0,0,.6);
     padding-left: .5rem;
-    padding-bottom: 1rem;
 }
 
 .job-technologies::before {
@@ -267,7 +268,7 @@ body {
 }
 
 .job-title {
-    font-weight: bold;
+    font-weight: 650;
     letter-spacing: .03125rem;
 }
 
@@ -306,6 +307,7 @@ body {
 progress {
     border-radius: 9999px;
     height: .5rem;
+    margin-top: .25rem;
 }
 
 progress[value] {
@@ -331,10 +333,20 @@ progress[value]::-webkit-progress-value {
 }
 
 .skill {
-    break-inside: avoid;
+    visibility: visible;
 }
 .skill:first-of-type {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
+}
+
+.skill {
+    break-inside: avoid;
+    padding-bottom: .25rem;;
+}
+
+// Whenever the pdf rendering swalllows a skill adjust this to break before
+.skill:nth-last-of-type(4) {
+    break-before: page;
 }
 
 .skill-bar span {
