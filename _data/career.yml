@@ -4,10 +4,10 @@
       from: Jun 2024
       until: Present
       description:
-        - Worked in an infrastructure team for a digitalization projected funded by the german government
+        - Worked in an infrastructure team for a digitalization project funded by the German government
         - Simplified and streamlined automatic deployments, making deployments more reliable
-        - Helped service teams to build CI/CD Pipelines
-        - Supported the shift from docker compose to Kubernetes deployments
+        - Assisted service teams in building CI/CD pipelines
+        - Supported the shift from Docker Compose to ArgoCD deployments
       technologies:
         - Java
         - Python
@@ -22,9 +22,9 @@
       from: Jun 2024
       until: Present
       description:
-        - Built a data engineering POC for self learning purposes
+        - Built a data engineering proof of concept (POC) for self learning purposes
         - Fully automated in a continuous deployment pipeline
-        - Project served as inspiration and starting point for colleagues getting into DE
+        - The project served as inspiration and a starting point for colleagues entering the field of data engineering
       technologies:
         - Python
         - Spark
@@ -42,8 +42,8 @@
       description:
         - Built a product for managing vehicle configurations backed by a SAT Solver for an automotive client
         - Led the development of a new data ingestion pipeline
-        - Optimized other data pipeline by 30% percent by using structured concurrency patterns
-        - Simplified deployment model of a service by moving from sidecars to an IngressController setup
+        - Optimized an existing data pipeline by 30% using structured concurrency patterns
+        - Simplified the deployment model of a service by transitioning from sidecars to an Ingress Controller setup.
       technologies:
         - Scala
         - Kotlin
@@ -57,10 +57,10 @@
       from: Aug 2021
       until: Nov 2022
       description:
-        - Developed a sales / order fulfillment platform for car dealers in the EV industry
-        - Migrated identity providers from cognito to Auth0
-        - Implemented state engine for the order lifecycle using DDD
-        - Helped transitioning into a full serverless stack using Terraform
+        - Developed a sales and order fulfillment platform for car dealers in the EV industry
+        - Migrated identity providers from Cognito to Auth0
+        - Implemented state engine for the order lifecycle using Domain Driven Design (DDD)
+        - Assisted in transitioning to a fully serverless stack using Terraform
       technologies:
         - Typescript
         - NodeJs
@@ -72,9 +72,9 @@
       from: Jan 2021
       until: Aug 2021
       description:
-        - Built an internal sales tool, integrating multiple distributed system into a coherent user experience for an automotive client
+        - Built an internal sales tool, integrating multiple distributed systems into a coherent user experience for an automotive client
         - Led an architectural shift from monolithic frontends to micro frontends, allowing for faster delivery through independent deployments
-        - Consulted other vendors in web best practices, integration patterns and architect
+        - Consulted other vendors in web best practices, integration patterns and architecture
       technologies:
         - Typescript
         - Kotlin
@@ -90,12 +90,11 @@
       until: Dec 2020
       description:
         - Developed an ETL tool to assemble 3D scenes for specific media output channels.
-        - Increased productivity of artists by reducing scene generation from one day to a couple of minutes
+        - Increased productivity of artists by reducing scene generation time from one day to a few minutes.
       technologies:
         - Python
         - Luigi
-        - 3DS Max & Maya
-        - ArrangoDB
+        - ArangoDB
     - title: Apprentice Fachinformatiker Anwendungsentwicklung
       from: Sep 2017
       until: Jan 2020
@@ -106,7 +105,7 @@
         - Typescript
         - Python
         - Spring Boot
-        - NodeJS
+        - Node.js
         - Angular
         - Flask
         - Django
@@ -114,7 +113,7 @@
     - title: Intern
       from: Jul 2017
       until: Aug 2017
-      description: Helped maintaining an asynchronous web socket application that supported a realtime product configuration solution by increasing test coverage and on-premise deployment processes.
+      description: Assisted in maintaining an asynchronous web socket application that supported a real-time product configuration solution by increasing test coverage and improving on-premise deployment processes
       technologies:
         - Python
         - Docker
