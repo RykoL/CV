@@ -1,10 +1,10 @@
 - group: Languages
   skills:
+    - name: Kotlin
+      level: 5
     - name: Typescript
       level: 5
     - name: Python
-      level: 5
-    - name: Kotlin
       level: 4
     - name: Scala
       level: 3

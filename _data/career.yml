@@ -59,7 +59,7 @@
       description:
         - Developed a sales and order fulfillment platform for car dealers in the EV industry
         - Migrated identity providers from Cognito to Auth0
-        - Implemented state engine for the order lifecycle using Domain Driven Design (DDD)
+        - Designed and implemented a robust state engine for the order lifecycle using Domain Driven Design (DDD)
         - Assisted in transitioning to a fully serverless stack using Terraform
       technologies:
         - Typescript
