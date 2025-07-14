@@ -5,45 +5,31 @@
       until: Present
       description:
         - Worked in an infrastructure team for a digitalization project funded by the German government
-        - Simplified and streamlined automatic deployments, making deployments more reliable
-        - Assisted service teams in building CI/CD pipelines
-        - Supported the shift from Docker Compose to ArgoCD deployments
+        - Simplified, automated and streamlined deployments making delivery stable accross multiple teams
+        - Assisted service teams in building automated pipelines
+        - Drove the shift from docker-compose delpoyments to Kubernetes and FluxCD, reducing deployment times from 10 minutes to 30 seconds
+        - Implemented distributed tracing via OpenTelemetry and Grafana Tempo, increasing the systems observability in the process
+        - Provided guardrailes and automation for prometheus alerts, helping teams setting up meaningful alerts for their services
       technologies:
         - Java
         - Python
         - Docker
-        - Kubernetes
-        - ArgoCD
+        - Kubernetes / K3s
+        - FluxCD
         - Gitlab CI
-        - SOPS
         - Grafana
+        - OpenTelemetry
         - Prometheus
-    - title: Senior IT Consultant
-      from: Jun 2024
-      until: Present
-      description:
-        - Built a data engineering proof of concept (POC) for self learning purposes
-        - Fully automated in a continuous deployment pipeline
-        - The project served as inspiration and a starting point for colleagues entering the field of data engineering
-      technologies:
-        - Python
-        - Spark
-        - Docker
-        - Databricks
-        - Gitlab CI
-        - Azure
-        - Terraform
-        - Soda Core
 - company: Thoughtworks
   jobs:
     - title: Senior Consultant Software Developer
       from: Nov 2022
       until: May 2024
       description:
-        - Built a product for managing vehicle configurations backed by a SAT Solver for an automotive client
-        - Led the development of a new data ingestion pipeline
-        - Optimized an existing data pipeline by 30% using structured concurrency patterns
-        - Simplified the deployment model of a service by transitioning from sidecars to an Ingress Controller setup.
+        - Built a product for managing vehicle configurations backed by a SAT Solver and propositional logic for an automotive client
+        - Led the development of a new data ingestion pipeline, which aggregated data from several legacy systems to onboard a new product group
+        - Sped up a data pipeline written in kotlin by 30% using structured concurrency patterns
+        - Refactored a kotlin codebase that mixed functional and OOP styles, to a fully functional style. The refactoring made the code more resilleint by employing functional error handling
       technologies:
         - Scala
         - Kotlin
@@ -58,9 +44,9 @@
       until: Nov 2022
       description:
         - Developed a sales and order fulfillment platform for car dealers in the EV industry
-        - Migrated identity providers from Cognito to Auth0
+        - Facilitaed the migration between identity providers
         - Designed and implemented a robust state engine for the order lifecycle using Domain Driven Design (DDD)
-        - Assisted in transitioning to a fully serverless stack using Terraform
+        - Assisted in transitioning an application to a fully serverless stack using Terraform and AWS
       technologies:
         - Typescript
         - NodeJs
@@ -90,7 +76,7 @@
       until: Dec 2020
       description:
         - Developed an ETL tool to assemble 3D scenes for specific media output channels.
-        - Increased productivity of artists by reducing scene generation time from one day to a few minutes.
+        - Increased productivity of artists by reducing scene generation time from one day to a couple minutes.
       technologies:
         - Python
         - Luigi
@@ -113,7 +99,7 @@
     - title: Intern
       from: Jul 2017
       until: Aug 2017
-      description: Assisted in maintaining an asynchronous web socket application that supported a real-time product configuration solution by increasing test coverage and improving on-premise deployment processes
+      description: Assisted in maintaining an asynchronous web socket application, that supported a real-time product configuration solution by increasing test coverage and improving on-premise deployment processes
       technologies:
         - Python
         - Docker
