@@ -4,12 +4,12 @@
       from: Jun 2024
       until: Present
       description:
-        - Worked in an infrastructure team for a digitalization project funded by the German government
-        - Simplified, automated and streamlined deployments making delivery stable accross multiple teams
-        - Assisted service teams in building automated pipelines
-        - Drove the shift from docker-compose delpoyments to Kubernetes and FluxCD, reducing deployment times from 10 minutes to 30 seconds
-        - Implemented distributed tracing via OpenTelemetry and Grafana Tempo, increasing the systems observability in the process
-        - Provided guardrailes and automation for prometheus alerts, helping teams setting up meaningful alerts for their services
+        - Worked in an infrastructure team for a for a government-funded digitalization project
+        - Simplified, automated and streamlined deployments to ensure stable delivery across multiple teams
+        - Assisted service teams in building and optimizing automated CI/CD pipelines
+        - Led the transition from docker-compose to Kubernetes and FluxCD, reducing average deployment times from 10 minutes to 30 seconds
+        - Implemented distributed tracing with OpenTelemetry and Grafana Tempo to enhance system observability
+        - Provided guardrails and automation for Prometheus, enabling teams to set up meaningful service alerts
       technologies:
         - Java
         - Python
@@ -28,8 +28,8 @@
       description:
         - Built a product for managing vehicle configurations backed by a SAT Solver and propositional logic for an automotive client
         - Led the development of a new data ingestion pipeline, which aggregated data from several legacy systems to onboard a new product group
-        - Sped up a data pipeline written in kotlin by 30% using structured concurrency patterns
-        - Refactored a kotlin codebase that mixed functional and OOP styles, to a fully functional style. The refactoring made the code more resilleint by employing functional error handling
+        - Increased performance of a data pipeline written in kotlin by 30% using structured concurrency patterns
+        - Refactored a mixed-paradigm (OOP/functional) Kotlin codebase to a purely functional style, improving code resilience through functional error handling
       technologies:
         - Scala
         - Kotlin
@@ -43,10 +43,10 @@
       from: Aug 2021
       until: Nov 2022
       description:
-        - Developed a sales and order fulfillment platform for car dealers in the EV industry
-        - Facilitaed the migration between identity providers
-        - Designed and implemented a robust state engine for the order lifecycle using Domain Driven Design (DDD)
-        - Assisted in transitioning an application to a fully serverless stack using Terraform and AWS
+        - Developed a sales and order fulfillment platform forfor electric vehicle dealerships
+        - Facilitated a seamless migration between identity providers
+        - Designed and implemented a robust state engine for the order lifecycle using Domain Driven Design (DDD) principles
+        - Contributed to transitioning an application to a fully serverless architecture using Terraform and AWS
       technologies:
         - Typescript
         - NodeJs
@@ -60,7 +60,7 @@
       description:
         - Built an internal sales tool, integrating multiple distributed systems into a coherent user experience for an automotive client
         - Led an architectural shift from monolithic frontends to micro frontends, allowing for faster delivery through independent deployments
-        - Consulted other vendors in web best practices, integration patterns and architecture
+        - Advised other vendors on web development best practices, integration patterns, and architectural design
       technologies:
         - Typescript
         - Kotlin
